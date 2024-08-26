@@ -31,12 +31,8 @@ const Navbar = () => {
       </ul>
 
       <section className='flex gap-8'>
-        <button className='bg-main-blue p-3 rounded-md text-text-accent font-semibold'>
-          Sign In
-        </button>
-        <button className='bg-main-text/30 p-3 rounded-md text-text-accent font-semibold'>
-          Sign Up
-        </button>
+        <button className='regular-button'>Sign In</button>
+        <button className='secondary-button'>Sign Up</button>
       </section>
     </nav>
   )

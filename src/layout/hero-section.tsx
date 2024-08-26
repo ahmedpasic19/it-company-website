@@ -1,8 +1,17 @@
+import HeroImages from '@/components/hero-images'
+import HeroTitle from '@/components/hero-title'
 import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div className='h-screen bg-gradient-to-tr from-main-dark to-main-gray'></div>
+    <div className='h-screen bg-gradient-to-tr from-main-dark to-main-gray flex justify-envely items-center'>
+      <div className='w-full flex justify-center items-center p-10'>
+        <HeroTitle />
+      </div>
+      <div className='w-full flex justify-center items-center p-10'>
+        <HeroImages />
+      </div>
+    </div>
   )
 }
 

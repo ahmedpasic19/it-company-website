@@ -5,3 +5,10 @@
 body {
   @apply bg-main-dark;
 }
+
+.regular-button {
+  @apply bg-main-blue p-3 rounded-md text-text-accent font-semibold;
+}
+.secondary-button {
+  @apply bg-main-text/30 p-3 rounded-md text-text-accent font-semibold;
+}
