@@ -1,5 +1,7 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import Logo from '@/assets/Screenshot 2024-08-26 at 18.52.35.png'
 
 const Navbar = () => {
   const links = [
