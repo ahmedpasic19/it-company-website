@@ -12,7 +12,7 @@ const AboutTabCard = ({ tab, selected }: TProps) => {
     <div
       className={`w-full flex ${
         selected % 2 !== 0 ? 'flex-row-reverse' : ''
-      } justify-between items-center py-10  bg-gradient-to-t from-main-dark to-main-blue/10`}
+      } justify-between items-center py-10 bg-gradient-to-b from-main-dark via-main-dark/50 to-main-blue/10`}
     >
       <div className='relative w-1/2'>
         <Image
