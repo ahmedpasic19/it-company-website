@@ -1,5 +1,5 @@
-import AboutTabs from '@/components/about-tabls'
-import SectionTitle from '@/components/section-title'
+import AboutTabs from '@/components/about/about-tabs'
+import SectionTitle from '@/components/misc/section-title'
 import React from 'react'
 
 const About = () => {

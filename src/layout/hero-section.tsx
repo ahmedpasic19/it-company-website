@@ -1,5 +1,5 @@
-import HeroImages from '@/components/hero-images'
-import HeroTitle from '@/components/hero-title'
+import HeroImages from '@/components/hero/hero-images'
+import HeroTitle from '@/components/hero/hero-title'
 import React from 'react'
 
 const HeroSection = () => {

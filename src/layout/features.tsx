@@ -1,5 +1,5 @@
-import FeaturesList from '@/components/features-list'
-import SectionTitle from '@/components/section-title'
+import FeaturesList from '@/components/feature/features-list'
+import SectionTitle from '@/components/misc/section-title'
 import React from 'react'
 
 const Features = () => {
