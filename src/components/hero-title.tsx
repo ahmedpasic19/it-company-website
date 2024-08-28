@@ -9,7 +9,7 @@ const HeroTitle = () => {
       </span>
 
       <section>
-        <h1 className='text-title text-6xl font-extrabold text-text-accent mb-4'>
+        <h1 className='text-title text-5xl font-extrabold text-text-accent mb-4'>
           Next.js Boilerplate for Your Business
         </h1>
         <p className='text-md text-main-text tracking-wide'>
