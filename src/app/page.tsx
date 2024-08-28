@@ -1,6 +1,7 @@
 import About from '@/layout/about'
 import Features from '@/layout/features'
 import HeroSection from '@/layout/hero-section'
+import Portofolio from '@/layout/portofolio'
 import Team from '@/layout/team'
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Features />
       <About />
       <Team />
+      <Portofolio />
     </main>
   )
 }
