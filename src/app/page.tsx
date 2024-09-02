@@ -1,9 +1,10 @@
 import About from '@/layout/about'
 import Clients from '@/layout/clients'
 import Features from '@/layout/features'
-import GlobalClients from '@/layout/global-clients'
+// import GlobalClients from '@/layout/global-clients'
 import HeroSection from '@/layout/hero-section'
 import Portofolio from '@/layout/portofolio'
+import PricingSection from '@/layout/pricing-section'
 import Team from '@/layout/team'
 
 export default function Home() {
@@ -15,7 +16,8 @@ export default function Home() {
       <Team />
       <Portofolio />
       <Clients />
-      <GlobalClients />
+      {/* <GlobalClients /> */}
+      <PricingSection />
     </main>
   )
 }
