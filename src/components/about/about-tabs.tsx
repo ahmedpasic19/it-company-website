@@ -50,7 +50,7 @@ Phasellus ex massa, facilisis ac vestibulum eget, ultrices quis nulla. Integer v
   ]
 
   return (
-    <div className='w-4/5'>
+    <div className='sm:w-4/5'>
       <AboutTabsNavigation
         tabsArray={tabs}
         setSelected={setSelected}

@@ -104,7 +104,7 @@ const PricingSection = () => {
         text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.'
       />
 
-      <ul className='w-4/5 grid grid-cols-3'>
+      <ul className='w-4/5 flex flex-col sm:grid grid-cols-3'>
         {pricing.map((plan) => {
           return (
             <div

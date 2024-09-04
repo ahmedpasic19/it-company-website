@@ -33,7 +33,7 @@ const TeamList = () => {
   ]
 
   return (
-    <ul className='flex gap-5 items-center'>
+    <ul className='flex flex-col sm:flex-row gap-5 items-center'>
       {teamList.map((item) => {
         return (
           <li key={Math.random()}>

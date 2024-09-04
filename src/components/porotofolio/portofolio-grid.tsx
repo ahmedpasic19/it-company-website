@@ -3,7 +3,7 @@ import React from 'react'
 
 const PortofolioGrid = () => {
   return (
-    <ul className='grid grid-cols-3 grid-rows-[9rem_9rem_9rem_9rem] gap-8 w-full'>
+    <ul className='flex flex-col gap-4 sm:gap-8 sm:grid grid-cols-3 grid-rows-[9rem_9rem_9rem_9rem] w-full'>
       <Image
         alt='Project image'
         src={

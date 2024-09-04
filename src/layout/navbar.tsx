@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { FaHamburger } from 'react-icons/fa'
 
 const Navbar = () => {
   const links = [
@@ -22,7 +23,7 @@ const Navbar = () => {
     <nav className='flex justify-evenly items-center py-4'>
       <h1 className='text-text-accent font-bold text-title'>AT-IT Solutions</h1>
 
-      <ul className='flex gap-8 text-main-text'>
+      <ul className='hidden sm:flex gap-8 text-main-text'>
         {links.map((item) => (
           <li key={Math.random()}>
             <Link href={item.href}>{item.label}</Link>
@@ -30,9 +31,15 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <section className='flex gap-8'>
+      <section className='hidden sm:flex gap-8'>
         <button className='regular-button'>Sign In</button>
         <button className='secondary-button'>Sign Up</button>
+      </section>
+
+      <section className='block sm:hidden gap-8'>
+        <button className='regular-button'>
+          <FaHamburger />
+        </button>
       </section>
     </nav>
   )

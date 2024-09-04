@@ -25,9 +25,8 @@ export default function RootLayout({
           </div>
           {children}
           <Footer />
-
           <div className='px-14 text-main-text'>
-            <div className='py-10 w-full flex justify-between font-semibold border-t-2 border-main-gray'>
+            <div className='py-10 w-full flex flex-col gap-12 sm:gap-0 sm:flex-row justify-between font-semibold border-t-2 border-main-gray'>
               <div className='flex gap-8'>
                 <h3>English</h3>
                 <h3>Privacy Policy</h3>

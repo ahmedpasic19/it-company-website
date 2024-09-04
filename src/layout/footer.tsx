@@ -8,7 +8,7 @@ const Footer = () => {
   const listClassName = 'flex flex-col gap-4'
 
   return (
-    <footer className='grid grid-cols-5 gap-8 text-main-text w-full px-24 py-20'>
+    <footer className='flex flex-col gap-12 sm:gap-8 sm:grid grid-cols-5 text-main-text w-full px-10 smp:x-24 py-20'>
       <div className={containderClassName}>
         <h3 className={titleClassName}>Startup</h3>
         <p className='w-full max-w-sm'>

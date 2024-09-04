@@ -21,7 +21,9 @@ const PlanCard = ({ plan, grayedBtn }: TProps) => {
     <div className='text-text-accent flex flex-col gap-20'>
       <div className='flex flex-col justify-center items-center border-b-2 border-main-gray/50 pb-10'>
         <h2 className='font-semibold text-3xl'>{plan.title}</h2>
-        <p className='text-main-text'>{plan.subtitle}</p>
+        <p className='text-main-text text-center sm:text-start'>
+          {plan.subtitle}
+        </p>
       </div>
 
       <div className='space-y-8 flex flex-col justify-center items-center border-b-2 border-main-gray/50 pb-10'>
@@ -31,7 +33,9 @@ const PlanCard = ({ plan, grayedBtn }: TProps) => {
             currency: 'USD',
           })}
         </h1>
-        <p className='text-main-text text-sm'>{plan.price_description}</p>
+        <p className='text-main-text text-sm text-center sm:text-start'>
+          {plan.price_description}
+        </p>
       </div>
 
       <ul className='space-y-8 flex flex-col border-b-2 border-main-gray/50 pb-10 items-center'>

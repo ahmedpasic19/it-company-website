@@ -42,7 +42,7 @@ const FeaturesList = () => {
     },
   ]
   return (
-    <ul className='w-full grid grid-cols-3 gap-12'>
+    <ul className='w-full flex flex-col sm:grid grid-cols-3 gap-12'>
       {features.map((feature) => (
         <FeatureCard
           key={Math.random()}
