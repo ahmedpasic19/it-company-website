@@ -3,7 +3,7 @@ import React from 'react'
 
 const HeroImages = () => {
   return (
-    <div className='relative'>
+    <div className='scale-[60%] sm:scale-100 absolute -bottom-10 sm:relative'>
       <Image
         alt='Hero image 1'
         height={100}
