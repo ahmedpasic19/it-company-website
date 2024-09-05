@@ -11,7 +11,7 @@ const HeroTitle = () => {
       </span>
 
       <section>
-        <h1 className='text-title text-5xl font-extrabold text-text-accent mb-4 text-center sm:text-start'>
+        <h1 className='text-6xl font-extrabold text-text-accent mb-4 text-center sm:text-start'>
           Next.js Boilerplate for Your Business
         </h1>
         <p className='text-md text-main-text tracking-wide text-center sm:text-start'>
@@ -23,7 +23,7 @@ const HeroTitle = () => {
 
       <div className='w-full flex gap-8 justify-center sm:justify-start'>
         <button className='regular-button sm:w-1/3 w-full'>Get started</button>
-        <button className='secondary-button sm:w-1/3 w-full'>
+        <button className='transparent-button sm:w-1/3 w-full'>
           How it works
         </button>
       </div>

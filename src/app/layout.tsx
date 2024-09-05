@@ -1,10 +1,13 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/layout/navbar'
 import Footer from '@/layout/footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+})
 
 export const metadata: Metadata = {
   title: 'AT-IT Solutions',
@@ -20,9 +23,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <div className='relative'>
-          <div className='sticky top-0 left-0 right-0 z-[100] bg-main-dark'>
-            <Navbar />
-          </div>
+          <Navbar />
           {children}
           <Footer />
           <div className='px-14 text-main-text'>

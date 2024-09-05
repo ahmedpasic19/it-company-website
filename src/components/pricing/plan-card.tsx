@@ -62,7 +62,7 @@ const PlanCard = ({ plan, grayedBtn }: TProps) => {
         <div className='w-full flex justify-center items-center pt-12'>
           <button
             className={`${
-              grayedBtn ? 'secondary-button' : 'regular-button'
+              grayedBtn ? 'transparent-button' : 'regular-button'
             } capitalize`}
           >
             Join this plan

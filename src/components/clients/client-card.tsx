@@ -13,7 +13,9 @@ const ClientCard = ({ comment, name, proffesion }: TProps) => {
       <div className='text-main-text space-y-8 text-lg'>
         <p className='w-full max-w-sm'>{comment}</p>
         <div>
-          <h3 className='text-text-accent font-bold sm:font-normal'>{name}</h3>
+          <h3 className='text-text-accent sm:text-xl font-bold sm:font-normal'>
+            {name}
+          </h3>
           <h4>{proffesion}</h4>
         </div>
       </div>
@@ -26,7 +28,7 @@ const ClientCard = ({ comment, name, proffesion }: TProps) => {
           width={100}
           className='w-[400px] h-[400px] z-50'
         />
-        <div className='hidden sm:block absolute bottom-4 left-5 w-[400px] h-[400px] backdrop-blur-md bg-white/20 z-0'></div>
+        <div className='hidden sm:block absolute bottom-4 left-5 bottom-5 w-[400px] h-[400px] backdrop-blur-md bg-white/20 -z-10'></div>
       </div>
     </div>
   )
