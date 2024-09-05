@@ -1,11 +1,15 @@
 'use client'
 
+import { links } from '@/data/routes'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
+import { CgClose } from 'react-icons/cg'
 import { FaHamburger } from 'react-icons/fa'
+import MobileMenu from './mobile-menu'
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
+  const [openHamburgerMenu, setOpenHamburgerMenu] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,23 +21,6 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
-
-  const links = [
-    { label: 'Features', href: '#features' },
-    { label: 'About', href: '#about' },
-    { label: 'Portofolio', href: '#portofolio' },
-    { label: 'Pricing', href: '#pricing' },
-    {
-      label: 'Pages',
-      href: '#pages',
-      pages: [
-        { label: 'Features', href: '#features' },
-        { label: 'About', href: '#about' },
-        { label: 'Portofolio', href: '#portofolio' },
-        { label: 'Pricing', href: '#pricing' },
-      ],
-    },
-  ]
 
   return (
     <nav
@@ -61,11 +48,7 @@ const Navbar = () => {
           <button className='secondary-button'>Sign Up</button>
         </section>
 
-        <section className='block sm:hidden gap-8'>
-          <button className='regular-button'>
-            <FaHamburger />
-          </button>
-        </section>
+        <MobileMenu />
       </div>
     </nav>
   )

@@ -7,11 +7,11 @@ body {
 }
 
 .regular-button {
-  @apply bg-main-blue px-8 p-3 rounded-md text-text-accent font-semibold;
+  @apply bg-main-blue sm:px-8 p-3 rounded-md text-text-accent font-semibold;
 }
 .secondary-button {
-  @apply bg-main-text/30 px-8 p-3 rounded-md text-text-accent font-semibold;
+  @apply bg-main-text/30 sm:px-8 p-3 rounded-md text-text-accent font-semibold;
 }
 .transparent-button {
-  @apply bg-main-text/5 px-8 p-3 rounded-md text-text-accent font-semibold;
+  @apply bg-main-text/5 sm:px-8 p-3 rounded-md text-text-accent font-semibold;
 }

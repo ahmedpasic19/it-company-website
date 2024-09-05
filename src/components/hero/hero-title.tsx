@@ -11,7 +11,7 @@ const HeroTitle = () => {
       </span>
 
       <section>
-        <h1 className='text-6xl font-extrabold text-text-accent mb-4 text-center sm:text-start'>
+        <h1 className='text-5xl sm:text-6xl font-extrabold text-text-accent mb-4 text-center sm:text-start'>
           Next.js Boilerplate for Your Business
         </h1>
         <p className='text-md text-main-text tracking-wide text-center sm:text-start'>
